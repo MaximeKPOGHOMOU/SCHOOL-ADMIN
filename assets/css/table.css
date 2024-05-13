@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2; /* Couleur de fond de l'en-tête */
+    font-weight: bold;
+}
+.titre{
+    text-align: center;
+    font-weight: bold;
+}
+#guinne{
+    text-transform: uppercase;
+}
+#devise{
+    text-transform: capitalize;
+    margin-top: -20px;
+}
+
+.log{
+    width: 100Px;
+}
+#eye{
+    width: 10px;
+    height: 10px;
+}
+@media print{
+    .hidden-print{
+        display: none !important;
+    }
+}
+.id{
+    font-weight: 900;
+}
+.st{
+    font-weight: normal;
+}
+.login{
+    background: url('../images/figure/login-bg.jpg');
+}
